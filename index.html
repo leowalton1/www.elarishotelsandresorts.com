@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elaris Hotels & Resorts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    nav {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      font-weight: 600;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section.intro {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section.intro h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .resort {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background-color: #f5f5f5;
+    }
+    .resort img {
+      max-width: 100%;
+      width: 500px;
+      flex: 1;
+    }
+    .resort .content {
+      flex: 1;
+      padding: 20px;
+    }
+    .resort .content h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+    }
+    .btn {
+      background: #c89b6e;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#resorts">Our Resorts</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Elaris Hotels & Resorts</h1>
+    <p>Where every stay is a story!</p>
+  </header>
+
+  <section class="intro">
+    <h2>Discover a world of timeless luxury and unforgettable family experiences.</h2>
+    <p>At Elaris, we bring culture, comfort, and curated experiences together in stunning destinations across the world. Whether you seek calm, culture, or connection, Elaris is your gateway to a meaningful escape.</p>
+  </section>
+
+  <section class="resort" id="resorts">
+    <img src="taleema-resort.jpg" alt="Taleema Aden Resort" />
+    <div class="content">
+      <h3>Taleema Aden</h3>
+      <p>Set along the golden shores of Aden, Taleema Aden is our signature family resort featuring beachside villas, immersive Yemeni cultural programs, and a Kids’ Discovery Club that turns every day into an adventure.</p>
+      <a href="#" class="btn">Explore Taleema Aden</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elaris Hotels & Resorts. All rights reserved.</p>
+    <p>Contact: info@elarishotelsandresorts.com</p>
+  </footer>
+</body>
+</html>
